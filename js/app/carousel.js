@@ -1,4 +1,4 @@
-define([], function() {
+define(['jquery'], function($) {
     function Carousel($container) {
             this.$container = $container
             this.init();
